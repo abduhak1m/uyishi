@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Black.ttf);
+    src: url(./fonts/Montserrat-BlackItalic.ttf);
+    src: url(./fonts/Montserrat-Bold.ttf);
+    src: url(./fonts/Montserrat-BoldItalic.ttf);
+    src: url(./fonts/Montserrat-ExtraBold.ttf);
+    src: url(./fonts/Montserrat-ExtraBoldItalic.ttf);
+    src: url(./fonts/Montserrat-ExtraLight.ttf);
+    src: url(./fonts/Montserrat-ExtraLightItalic.ttf);
+    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/Montserrat-Italic.ttf);
+    src: url(./fonts/Montserrat-Light.ttf);
+    src: url(./fonts/Montserrat-LightItalic.ttf);
+    src: url(./fonts/Montserrat-Medium.ttf);
+    src: url(./fonts/Montserrat-MediumItalic.ttf);
+    src: url(./fonts/Montserrat-Regular.ttf);
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span {
+    display: inline-block;
+}
+.container {
+    width: 1310px;
+    margin: 20px auto;
+}
+#header {
+    width: 1440px;
+    margin: 0 auto;
+}
+.produck_header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 39px;
+}
+.produck_header_bold_word {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.produck_header_word {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header_button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+}
+.header_button_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #797979;
+}
+.produck_main_header {
+    background-image: url(./images/background_images.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 120px 0 40px;
+}
+.header_main_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #D63B2C;
+    mix-blend-mode: difference;
+}
+.header_main_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;    
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+.main_button {
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main_button_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #fff;
+}
+.adiweek_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.adiweek_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.adiweek_span {
+    font-size: 30px;
+}
+.adiweek_main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.adiweek_smallbox {
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/krosofkalar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.adiweek_smallbox img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.adiweek_smallbox .adiweek_text {
+    font-family: 'Montserrat';
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.girl_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1310px;
+    height: 600px;
+    position: relative;
+    background-color: #231F20;
+    border-radius: 100px 100px 100px 100px;
+}
+.girl_right {
+    padding: 0 20px;
+}
+.girl_right h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.girl_right h3 span {
+    color: #EDE734;
+}
+.position {
+    top: 75px;
+    left: 147px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: #FFFFFF;
+ }
+ 
+ .position span {
+    color: #EDE734;
+ }
+.interesting_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+.interesting_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.interesting_img {
+    display: inline-block;
+}
